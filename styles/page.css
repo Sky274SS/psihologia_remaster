@@ -240,6 +240,7 @@
     border: solid 1px var(--color-bg-light);
     border-radius: 5px;
     box-shadow: 0 0 5px var(--color-bg-light);
+    width: 50px;
 }
 
 .info__h3 {
@@ -385,6 +386,7 @@
 }
 
 .block_element_img {
+    width: 60px;
 }
 
 @media (max-width: 620px) {
