@@ -1,0 +1,31 @@
+:root {
+    --color-bg: rgb(242, 219, 219);
+    --color-bg-light: rgb(245, 229, 229);
+    --color-bg-dark: rgb(220, 199, 199);
+    --color-bg-light-opacity: rgba(220, 199, 199, 0.8);
+    --color-bg-opacity: rgba(0, 0, 0, 0.2);
+    --color-text: #000;
+    --color-link: #4e4e4e;
+    --layout-width: 1200px;
+    font-family: "Roboto Thin", "Arial", sans-serif;
+}
+
+@font-face {
+    font-family: 'Sweet';
+    src: local('Sweet'),
+    url(../src/fonts/sweet.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg-dark);
+}
+
+a {
+    text-decoration: none;
+}

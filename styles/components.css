@@ -1,0 +1,150 @@
+/*SECTION*/
+.section {
+
+}
+
+.section__dark {
+    background: var(--color-bg-dark);
+    padding-bottom: 60px;
+}
+
+.section__light {
+    background: var(--color-bg-light);
+    padding-bottom: 60px;
+}
+
+.section__main {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+            "a b"
+            "c b";
+    gap: 5px;
+}
+
+.section__about {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section__education {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section__blog{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section__contacts{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__price{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section__reviews{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section__h2 {
+    margin: 0 0 15px;
+    text-align: center;
+    padding: 15px;
+    font-family: Sweet, 'sans-serif';
+    font-size: 45px;
+    line-height: 120%;
+}
+
+.section__h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.section__p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+@media (max-width: 830px) {
+    .section__main {
+        grid-template-areas:
+            "a"
+            "b"
+            "c";
+    }
+}
+@media (max-width: 620px) {
+    .section__h3 {
+        font-size: 24px;
+    }
+}
+/*BUTTON*/
+.button {
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--color-text);
+    border: solid 1px var(--color-text);
+    font-weight: bold;
+    transition: background-color 0.5s;
+    font-size: 16px;
+}
+.button_light{
+    background-color: var(--color-bg-light);
+}
+.button_dark{
+    background-color: var(--color-bg-dark);
+}
+
+.button_dark:hover {
+    background-color: var(--color-bg-light);
+}
+.button_dark:active{
+    background-color: var(--color-bg-dark);
+}
+
+.button_light:hover {
+    background-color: var(--color-bg-dark);
+}
+.button_light:active{
+    background-color: var(--color-bg-light);
+}
+
+/*DATE*/
+.date{
+    width: 100%;
+    display:flex;
+    justify-content: end;
+    font-size: 18px;
+
+}
+.date p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px var(--color-text);
+    border-radius: 5px;
+}

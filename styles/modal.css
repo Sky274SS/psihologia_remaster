@@ -1,0 +1,77 @@
+.modal{
+    z-index: 4;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.modal__p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 120%;
+    padding: 25px 5px;
+}
+/*MAIN*/
+.modal__main{
+    display: flex;
+    width: 60vw;
+    background: var(--color-bg);
+    max-height: 80vh;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal__main_none{
+    display: none;
+
+}
+.modal__main_img{
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 830px) {
+    .modal__main{
+        width: 80vw;
+    }
+}
+@media (max-width: 620px) {
+    .modal__main_img{
+        width: 80%;
+    }
+}
+/*DIPLOMA*/
+.modal__diploma{
+    display: none;
+}
+.modal__diploma_el{
+    width: 60vw;
+    border-radius: 10px;
+}
+
+
+.modal__visible{
+    visibility: visible;
+}
+.display__modal_visible{
+    display: block;
+}
+.display__modal_flex{
+ display: flex;
+}
+@media (max-width: 830px) {
+    .modal__diploma_el{
+        width: 90vw;
+    }
+}
+
