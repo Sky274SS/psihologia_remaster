@@ -172,6 +172,24 @@
     border: solid 1px var(--color-text);
 }
 
+.section__education_documents_download{
+display: flex;
+    align-items: center;
+}
+.section__education_documents_download img{
+    width: 50px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+.section__education_documents_download p{
+    padding: 10px;
+ font-style: italic;
+}
+.section__education_documents_download img:hover{
+    background: var(--color-bg-opacity);
+}
+
 @media (max-width: 830px) {
     .section__education_container {
         flex-direction: column;
