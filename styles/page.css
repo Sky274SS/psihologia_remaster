@@ -416,13 +416,13 @@
 }
 
 .reviews__avatar_img {
-    width: 80%;
+    width: 60%;
     border-radius: 50%;
 }
 
 .reviews__avatar_h3 {
     font-family: Sweet, 'sans-serif';
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .reviews__text {
@@ -432,13 +432,23 @@
     line-height: 120%;
 }
 
+.reviews__text_info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: end;
+}
+.reviews__text_info p{
+    margin: 0;
+    padding: 2px;
+    font-size: 15px;
+    font-style: italic;
+}
+
 @media (max-width: 830px) {
     .reviews__container {
         flex-direction: column;
         gap: 10px;
-    }
-    .reviews__avatar_h3 {
-        font-size: 25px;
     }
 
     .reviews__avatar_img {
