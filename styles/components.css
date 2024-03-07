@@ -74,6 +74,10 @@
     line-height: 120%;
 }
 
+.section__h3_download{
+    font-family: Sweet, 'sans-serif';
+}
+
 .section__p {
     text-align: justify;
     font-size: 18px;
@@ -93,11 +97,7 @@
             "c";
     }
 }
-@media (max-width: 830px) {
-    .section__h3_download{
-        margin-top: 20px;
-    }
-}
+
 @media (max-width: 620px) {
     .section__h3 {
         font-size: 24px;

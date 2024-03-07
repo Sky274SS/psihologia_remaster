@@ -24,7 +24,7 @@
     max-width: 40px;
     padding: 5px 10px;
 }
-@media(max-width: 830px){
+@media(max-width: 870px){
     .header__wrapper{
         justify-content: end;
     }
@@ -65,7 +65,7 @@
 .menu__item:hover a{
     color: var(--color-link);
 }
-@media (max-width: 830px){
+@media (max-width: 870px){
     .menu{
         background: var(--color-bg-light-opacity);
         position: absolute;
