@@ -50,11 +50,11 @@ validation
             errorMessage: 'Введите корректный телефон',
         },
     ]).onSuccess((event) => {
-    console.log('Validation passes and form submitted', event);
+    // console.log('Validation passes and form submitted', event);
 
     let formData = new FormData(event.target);
 
-    console.log(...formData);
+    // console.log(...formData);
 
     let xhr = new XMLHttpRequest();
 
