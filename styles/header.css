@@ -67,7 +67,7 @@
 }
 @media (max-width: 870px){
     .menu{
-        background: var(--color-bg-light-opacity);
+        background: var(--color-bg-dark);
         position: absolute;
         right: 0;
         top: 65px;
