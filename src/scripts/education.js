@@ -5,7 +5,7 @@ const $modalDiploma = document.querySelector('.modal__diploma')
 const $modalDiplomaEl = document.querySelector('.modal__diploma_el')
 const $body = document.querySelector('body')
 
-const diplomaNames = ['src/images/diploma_1.jpg','src/images/diploma_2.jpg']
+const diplomaNames = ['src/images/diploma_1.jpg','src/images/diploma_2.jpg','src/images/diploma_3.png']
 let currentElement = 0
 $diplomaButton.addEventListener('click', () => {
     let currentElement = $diploma.attributes[1].nodeValue
